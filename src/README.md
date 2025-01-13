@@ -120,33 +120,7 @@ The project includes a robust set of tests to ensure reliability and correctness
 
 ## Example Usage:
 
-```java
-public static void main(String[] args) {
-    Ex2Sheet sheet = new Ex2Sheet(3, 3);
-
-    // Setting values in the spreadsheet
-    sheet.set(0, 0, "123");  // A1
-    sheet.set(1, 1, "=A1+2"); // B2
-    sheet.set(2, 2, "Hello"); // C3
-
-    // Evaluating values
-    System.out.println(sheet.value(1, 1)); // Output: 125.0
-    System.out.println(sheet.value(2, 2)); // Output: Hello
-
-    // Saving the spreadsheet
-    sheet.save("spreadsheet.csv");
-
-    // Loading the spreadsheet
-    Ex2Sheet loadedSheet = new Ex2Sheet();
-    loadedSheet.load("spreadsheet.csv");
-
-    // Verifying loaded values
-    System.out.println(loadedSheet.value(1, 1)); // Output: 125.0
-    System.out.println(loadedSheet.value(2, 2)); // Output: Hello
-}
-```
-
----
+![images.png](..%2Fimages%2Fimages.png)
 
 ## Summary:
 
