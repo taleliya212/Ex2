@@ -120,7 +120,7 @@ The project includes a robust set of tests to ensure reliability and correctness
 
 ## Example Usage:
 
-![images.png](..%2Fimages%2Fimages.png) 
+![images.png](..%2Fimages%2Fimages.png)  
 
 ## Summary:
 
