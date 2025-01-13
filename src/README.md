@@ -126,7 +126,6 @@ The project includes a robust set of tests to ensure reliability and correctness
 
 This project provides a lightweight yet powerful spreadsheet implementation with advanced features like dynamic formula evaluation, error detection, and file management.
 
-
 ---
 
 
